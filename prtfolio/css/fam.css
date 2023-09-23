@@ -1,0 +1,65 @@
+header{
+  font-family: sans-serif;
+  padding: 00px;
+  font-size: 30px;
+  color: gold;
+  text-align: left;
+}
+
+table, th, td {
+  border: 2px solid darkred;
+  border-radius: 30px;
+}
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h2, h3{
+  
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+img {
+  border-radius: 30px;
+}
+
+a{
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: dimgray;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: crimson;
+  color: black;
+}
+
+.active {
+  background-color: crimson;
+  color: black;
+}
+

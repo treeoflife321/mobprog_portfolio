@@ -1,0 +1,108 @@
+header{
+  font-family: sans-serif;
+  padding: 00px;
+  font-size: 40px;
+  color: red;
+}
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: black;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+p{
+  font-family: sans-serif;
+}
+a{
+  font-family: sans-serif;
+  color: white;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #red;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: darkred;
+  color: white;
+}
+
+article {
+  float: right;
+  padding: 10px;
+  width: 77%;
+  -background-color: #f1f1f1;
+  -border: solid whitesmoke;
+  height: 350px;
+  color: white;
+}
+
+.open {
+  -background-color: tomato;
+  color: white;
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+footer{
+  text-align: right;
+}
+
+.font{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: dimgray;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  right: 0;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: crimson;
+  color: black;
+}
+
+.active {
+  background-color: crimson;
+  color: black;
+}

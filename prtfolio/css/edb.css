@@ -1,0 +1,96 @@
+header{
+  font-family: sans-serif;
+  padding: 00px;
+  font-size: 40px;
+  color: red;
+}
+a{
+  color: white;
+}
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.central {
+  font-family: sans-serif;
+  background-color: midnightblue;
+  color: white;
+  border: 10px solid white;
+  margin: 20px;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+.smaj {
+  font-family: sans-serif;
+  background-color: steelblue;
+  color: black;
+  border: 10px solid white;
+  margin: 20px;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.cu {
+  font-family: sans-serif;
+  background-color: firebrick;
+  color: white;
+  border: 10px solid whitesmoke;
+  margin: 20px;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.ustp {
+  font-family: sans-serif;
+  background-color: navy;
+  color: white;
+  border: 10px solid white;
+  margin: 20px;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+footer {
+  font-family: sans-serif;
+  padding: 00px;
+  font-size: 15px;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: dimgray;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: crimson;
+  color: black;
+}
+
+.active {
+  background-color: crimson;
+  color: black;
+}
