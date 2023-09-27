@@ -16,7 +16,7 @@ body {
 
 .central {
   font-family: sans-serif;
-  background-color: midnightblue;
+  background-color: #274C77;
   color: white;
   border: 10px solid white;
   margin: 20px;
@@ -26,7 +26,7 @@ body {
 }
 .smaj {
   font-family: sans-serif;
-  background-color: steelblue;
+  background-color: #6096BA;
   color: black;
   border: 10px solid white;
   margin: 20px;
@@ -37,8 +37,8 @@ body {
 
 .cu {
   font-family: sans-serif;
-  background-color: firebrick;
-  color: white;
+  background-color: #82B2D6;
+  color: black;
   border: 10px solid whitesmoke;
   margin: 20px;
   padding: 15px;
@@ -48,8 +48,8 @@ body {
 
 .ustp {
   font-family: sans-serif;
-  background-color: navy;
-  color: white;
+  background-color: #A3CEF1;
+  color: black;
   border: 10px solid white;
   margin: 20px;
   padding: 15px;

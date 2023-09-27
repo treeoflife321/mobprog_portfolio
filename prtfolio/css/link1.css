@@ -27,16 +27,23 @@ section::after {
 	clear: both;
 }
 nav{
+  text-align: center;
 	float: left;
 	padding: 00px;
 	width: 30%;
 }
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
 article {
   float: right;
   padding: 10px;
   width: 66%;
-  -background-color: #f1f1f1;
-  -border: solid whitesmoke;
+  
   height: 350px;
 }
 
